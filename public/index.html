@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./index.css"> 
+    <script src="./script.js" defer></script>   
+    <title>Amazon Challange</title>
+</head>
+<body>
+    
+    <header class="header-container">
+
+        <h1 class="title">Amazon Details</h1>
+
+        <form onsubmit="event.preventDefault()" class="form-container">
+            <input type="text" placeholder="Keyword" id="keyword">
+            <span class="submit-image-container">
+                <input type="submit" onclick="getAmazonResults()" value="">
+                <div class="submit-image"></div>
+            </span>
+        </form>
+
+    </header>
+    <main class="main-container">
+
+        <div id="products-container-grid">
+            <h3>No researches made yet...</h3>
+        </div>
+
+    </main>
+
+    <footer class="footer-container">
+        This project is for personal use only
+    </footer>
+</body>
+</html>
